@@ -18,10 +18,8 @@ import React, { Component } from 'react'
 import MyComponent from 'armadillo-chart'
 import 'armadillo-chart/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+export const BarChart = () => {
+  return <MyComponent />
 }
 ```
 
