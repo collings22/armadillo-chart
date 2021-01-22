@@ -10,7 +10,7 @@ export const BarChart = (props) => {
     { label: 'D', patients: 14, weekNumber: 12 }
   ] : props.data
 
-  const title = props.title
+  const title = props.title === undefined ? '' : props.title
   const margin = { top: 10, right: 10, bottom: 0, left: 30 }
   const width = 400 - margin.top - margin.right
   const height = 150 - margin.top - margin.bottom
