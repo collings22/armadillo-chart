@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'armadillo-chart'
+import { BarChart } from 'armadillo-chart'
 import 'armadillo-chart/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <BarChart/>
 }
 
 export default App
